@@ -1,0 +1,130 @@
+
+
+/* CSS */
+
+.wpsap_counter_wr .counter_ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wpsap_counter_wr .counter_ul .counter {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: top;
+    width: 13%;
+}
+
+.wpsap_counter_wr .counter_ul .counter span {
+	background: #cc0000 none repeat scroll 0 0;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.wpsap_auction_details {
+    margin-top: 30px;
+}
+
+
+.wpsap_auction_details span {
+    display: inline-block;
+    width: 116px;
+}
+
+.wpsap_auction_details .currentbid {
+    font-weight: bold;
+}
+
+.biddingformwr .bidding input[type="number"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.biddingformwr {
+    margin-top: 20px; 
+}
+
+.biddingformwr .bidding input[type="button"] {
+    background: #cc0000 none repeat scroll 0 0;
+    border: 1px solid #cc0000;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+.wpsap_alert_fail {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    color: #ff0000;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
+
+.wpsap_alert_success {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #00aa00;
+    border-radius: 5px;
+    color: #00aa00;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
+
+/*Auction History */
+.wpsap_auction_history {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 2px;
+    padding:15px; 
+    border:1px solid #eee;
+}
+
+.wpsap_auction_history .wpsap_row div {
+    display: inline-block;
+    float: left;
+    width: 32%;
+}
+
+.wpsap_auction_history .wpsap_row div.heading {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wpsap_auction_history .wpsap_row {
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 5px 0 !important;
+    width: 100%;
+}
+
+.wpsap_auction_history .wpsap_row:first-child {
+    border-bottom: 2px solid #eee;
+    border-top:none;
+}
+
+.wpsap_heading {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
